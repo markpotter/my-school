@@ -1,0 +1,47 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="android:Theme.Holo.Light">
+    <item name="android:actionBarStyle">@style/MySchool.ActionBar</item>
+    <!-- Style the individual tabs -->
+    <item name="android:actionBarTabStyle">@style/MySchool.TabBar.Tab</item>
+    <!-- Style the overall tab bar -->
+    <item name="android:actionBarTabBarStyle">@style/MySchool.TabBar</item>
+    <!-- Style the tab text -->
+    <item name="android:actionBarTabTextStyle">@style/MySchool.TabBar.TitleText</item>
+    <!-- Style the overflow menu background and text color -->
+    <item name="android:popupMenuStyle">@style/MySchool.PopupMenu</item>
+  </style>
+
+  <!-- ActionBar styles -->
+  <style name="MySchool.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">@color/app_primary_color</item>
+    <item name="android:titleTextStyle">@style/MySchool.ActionBar.TitleText</item>
+  </style>
+
+  <!-- ActionBar Tab Bar Tabs styles -->
+  <style name="MySchool.TabBar.Tab" parent="@android:style/Widget.Holo.Tab">
+    <item name="android:background">@drawable/actionbar_tab_background</item>
+  </style>
+
+  <!-- ActionBar Tab Bar styles -->
+  <style name="MySchool.TabBar" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+    <item name="android:background">@color/app_secondary_color</item>
+  </style>
+
+  <!-- ActionBar Title Text styles -->
+  <style name="MySchool.ActionBar.TitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/app_primary_text_color</item>
+  </style>
+
+  <!-- ActionBar Tab Bar Text styles -->
+  <style name="MySchool.TabBar.TitleText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+    <item name="android:textColor">@color/app_secondary_text_color</item>
+  </style>
+
+  <!-- ActionBar Overflow Menu styles -->
+  <style name="MySchool.PopupMenu" parent="android:Widget.Holo.Light.PopupMenu">
+    <item name="android:popupBackground">@drawable/menu_dropdown_panel_example</item>
+  </style>
+
+</resources>

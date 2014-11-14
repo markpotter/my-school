@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">My School</string>
+
+  <!-- Menu options -->
+  <string name="action_settings">Settings</string>
+
+  <!-- Tab labels - directory types -->
+  <string name="directory_freshman">Freshman</string>
+  <string name="directory_sophomore">Sophomore</string>
+  <string name="directory_junior">Junior</string>
+  <string name="directory_senior">Senior</string>
+  <string name="directory_administrator">Administration</string>
+  <string name="directory_faculty">Faculty</string>
+
+</resources>
